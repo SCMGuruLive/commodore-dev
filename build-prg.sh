@@ -27,8 +27,6 @@ c_file=""
 
 cl65 -o	$prg_file -t c64 $c_file
 
-c64 $prg_file
-
 x64 $prg_file
 
 exit
