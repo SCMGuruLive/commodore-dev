@@ -20,7 +20,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see http://www.gnu.org/licenses/.
 
-# Get required packages
+# Get required packages for building VICE
 
 sudo apt-get -y install flex
 sudo apt-get -y install bison
@@ -28,17 +28,17 @@ sudo apt-get -y install xa65
 sudo apt-get -y install libpng-dev
 sudo apt-get -y install libsdl2-dev
 
-# Get VICE source code
+# Get VICE
 
 wget http://www.zimmers.net/anonftp/pub/cbm/crossplatform/emulators/VICE/vice-3.3.tar.gz -P /home/$USER/Downloads
 
-# Extract VICE source code package
+# Extract VICE
 
 cd /home/$USER/Downloads
 
 tar -v -z -x -f vice-3.3.tar.gz
 
-# Build VICE program
+# Build VICE
 
 cd /home/$USER/Downloads/vice-3.3
 
